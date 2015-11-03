@@ -1,0 +1,39 @@
+p.dline {
+    line-height: 1.5;
+}
+.leftimg {
+    float:left;
+    margin: 7px 7px 7px 0;
+}
+.rightimg  {
+    float: right;
+    margin: 7px 0 7px 7px;
+}
+a.rollover {
+    background: url(cats.png);
+    display: block;
+    width: 91px;
+    height: 143px;
+    float:left;
+    margin: 7px 7px 7px 0;
+}
+a.rollover:hover {
+    background-position: 0 -143px; 
+}
+.block1 {
+    width: 400px;
+    /*   background: #ccc;*/
+    padding: 5px;
+    padding-right: 20px;
+    /* border: solid 1px black;*/
+    float: left;}
+.block2 {
+    width: 600px;
+    /*background: #fc0;*/
+    padding: 5px;
+    /*border: solid 1px black;*/
+    float: left;
+    position: relative;
+    top: 40px;
+    left: -4px;
+}
